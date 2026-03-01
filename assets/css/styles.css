@@ -387,3 +387,14 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Mobile header tweak */
+@media (max-width: 768px) {
+  .logo-mark {
+    height: 42px;
+  }
+
+  header {
+    padding: 16px 20px;
+  }
+}
