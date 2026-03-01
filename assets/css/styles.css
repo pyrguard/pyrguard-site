@@ -89,7 +89,25 @@ nav a:hover {
     margin-right: auto;
 }
 
+.sub-hero {
+  padding: 140px clamp(60px, 8vw, 140px) 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(15,23,42,0.4),
+    rgba(15,23,42,0)
+  );
+}
 
+.sub-hero h1 {
+  font-size: clamp(40px, 4vw, 64px);
+  margin-bottom: 16px;
+}
+
+.sub-hero p {
+  font-size: 20px;
+  color: #cbd5e1;
+  max-width: 60ch;
+}
 
 
 
@@ -149,8 +167,9 @@ button:hover {
 }
 
 .page {
-    padding: 140px clamp(60px, 8vw, 140px);
-    max-width: 1000px;
+  padding: 140px clamp(60px, 8vw, 140px);
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .page h1 {
@@ -218,3 +237,134 @@ footer {
     color: #22d3ee;
 }
 
+/* ===== Structural Sections (Homepage) ===== */
+
+.section {
+  padding: 80px 0;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.section-head {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.section-head h2 {
+  font-size: 32px;
+  margin: 0 0 14px 0;
+  letter-spacing: -0.5px;
+}
+
+.section-head p {
+  margin: 0;
+  opacity: 0.9;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+/* Card Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  border-radius: 16px;
+  padding: 20px;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.9;
+  line-height: 1.55;
+  color: #cbd5e1;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Split Layout */
+.split {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  color: #cbd5e1;
+}
+
+/* Metric panel */
+.metric-panel {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.metric {
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.metric-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.metric-sub {
+  font-size: 0.92rem;
+  opacity: 0.85;
+  margin-top: 4px;
+  color: #cbd5e1;
+}
+
+/* Section rhythm backgrounds */
+.tech-snapshot {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.validation-strip {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .split {
+    grid-template-columns: 1fr;
+  }
+  .metric-panel {
+    grid-template-columns: 1fr;
+  }
+}
