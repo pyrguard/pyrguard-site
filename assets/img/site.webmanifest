@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "PyrGuard Systems",
+  "short_name": "PyrGuard",
   "icons": [
     {
       "src": "/assets/img/web-app-manifest-192x192.png",

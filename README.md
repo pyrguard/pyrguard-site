@@ -17,10 +17,10 @@ The website communicates the company's mission, technology direction, developmen
 ## Related Projects
 
 ### PyrCommand
-Wildfire incident command and decision-support platform currently in Alpha development.
+Wildfire incident planning and coordination software in active alpha development.
 
 ### PyrGuard Systems
-Wildfire defense infrastructure focused on validation-first suppression technology, command software, and integrated logistics.
+Early-stage wildfire technology company pursuing experimental suppression-material research, proposed deployment systems, and active development of PyrCommand Alpha.
 
 ## Current Status
 
@@ -32,7 +32,7 @@ Wildfire defense infrastructure focused on validation-first suppression technolo
 ## Public Milestones
 
 - U.S. Provisional Patent Application No. 64/087,501
-- NSF Project Pitch #00116881
+- June 2026 NSF SBIR Project Pitch #00116881 did not advance and resulted in no NSF award.
 - PyrCommand Alpha Development
 
 © PyrGuard Systems LLC

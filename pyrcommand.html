@@ -5,8 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>PyrCommand | PyrGuard Systems</title>
-  <meta name="description" content="PyrCommand Alpha is PyrGuard's command-software prototype for wildfire incident planning, asset coordination, containment objectives, simulation, and after-action review." />
-  <link rel="canonical" href="https://pyrguard.com/pyrcommand.html" />
+  <meta name="description" content="PyrCommand Alpha is wildfire incident-command software in active development for geographic planning, incident management, resource coordination, reconnaissance, and containment." />
+  <link rel="canonical" href="https://pyrguard.com/pyrcommand" />
+
+  <meta property="og:site_name" content="PyrGuard Systems" />
+  <meta property="og:title" content="PyrCommand Alpha | PyrGuard Systems" />
+  <meta property="og:description" content="PyrCommand Alpha is wildfire incident-command software in active development for geographic planning, incident management, resource coordination, reconnaissance, and containment." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pyrguard.com/pyrcommand" />
+  <meta property="og:image" content="https://pyrguard.com/assets/img/og-preview.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="White PyrGuard Systems wordmark on a navy background" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PyrCommand Alpha | PyrGuard Systems" />
+  <meta name="twitter:description" content="PyrCommand Alpha is wildfire incident-command software in active development for geographic planning, incident management, resource coordination, reconnaissance, and containment." />
+  <meta name="twitter:image" content="https://pyrguard.com/assets/img/og-preview.png" />
+  <meta name="twitter:image:alt" content="White PyrGuard Systems wordmark on a navy background" />
 
   <link rel="stylesheet" href="/assets/css/styles.css" />
 
@@ -20,45 +36,64 @@
 </head>
 <body>
 <header>
-  <a href="/index.html" class="logo-link" aria-label="PyrGuard Systems">
-    <img src="/assets/img/logo-white.svg" alt="PyrGuard Systems logo" class="logo-mark">
-    <span class="logo-text">PyrGuard Systems</span>
+  <a href="/" class="logo-link" aria-label="PyrGuard Systems home">
+    <img src="/assets/branding/PyrGuard%20logo%20horizontal%20white.png" alt="" width="1000" height="160" class="logo-mark">
   </a>
 
   <nav>
-    <a href="/index.html">Home</a>
-    <a href="/technology.html">Technology</a>
-    <a href="/pyrcommand.html" class="active">PyrCommand</a>
-    <a href="/validation.html">Validation</a>
-    <a href="/partnerships.html">Partnerships</a>
-    <a href="/careers.html">Careers</a>
+    <a href="/">Home</a>
+    <a href="/technology">Technology</a>
+    <a href="/pyrcommand" class="active" aria-current="page">PyrCommand</a>
+    <a href="/validation">Validation</a>
+    <a href="/partnerships">Partnerships</a>
+    <a href="/careers">Careers</a>
   </nav>
 </header>
 <main>
-  <section class="sub-hero"><div class="container"><div class="mini-label">Command software</div><h1>PyrCommand Alpha</h1><p>Command software for wildfire planning, coordination, simulation, and after-action review.</p></div></section>
-  <section class="page">
-    <div class="panel"><div class="mini-label">Purpose</div><h2>Purpose</h2><p>PyrCommand is being developed as the command-software layer of the PyrGuard ecosystem. The Alpha prototype explores how wildfire-response teams could coordinate assets, evaluate containment strategies, track incident activity, and review operational outcomes in a structured interface.</p></div>
-    <div class="section-head"><div class="mini-label">Alpha scope</div><h2>Current Alpha Capabilities</h2></div>
-    <div class="feature-grid">
-      <article class="feature-card"><h3>Incident simulation</h3><p>Scenario workflows for exploring incident planning and response coordination concepts.</p></article>
-      <article class="feature-card"><h3>Containment objectives</h3><p>Structured objective tracking for evaluating containment priorities and response intent.</p></article>
-      <article class="feature-card"><h3>Asset coordination</h3><p>Prototype coordination views for crews, equipment, support assets, and operational resources.</p></article>
-      <article class="feature-card"><h3>Operations log</h3><p>Chronological incident activity capture for review, context, and after-action workflows.</p></article>
-      <article class="feature-card"><h3>Tactical telemetry</h3><p>Interface concepts for surfacing incident status, asset posture, and operational signals.</p></article>
-      <article class="feature-card"><h3>After-action review</h3><p>Review workflows for examining objectives, logs, simulated outcomes, and operational decisions.</p></article>
-      <article class="feature-card"><h3>Mobile observer mode</h3><p>Observer-oriented concepts for lightweight field visibility and incident updates.</p></article>
-      <article class="feature-card"><h3>Cloud incident session foundation</h3><p>Early foundation for persistent incident sessions and shared operational context.</p></article>
+  <section class="sub-hero pyrcommand-intro">
+    <div class="container">
+      <div class="mini-label">Command software</div>
+      <h1>PyrCommand Alpha</h1>
+      <p>PyrCommand is actively developed wildfire incident-command software for geographic planning, incident management, resource coordination, reconnaissance, and containment workflows.</p>
     </div>
-    <div class="panel"><div class="mini-label">System role</div><h2>Role in the PyrGuard System</h2><p>PyrCommand is intended to support the broader PyrGuard infrastructure model by connecting suppression assets, operational plans, validation data, and incident workflows into a more coordinated response environment.</p></div>
-    <div class="notice">Status: Alpha prototype in active development. PyrCommand is not currently marketed as a certified emergency-response system or deployed operational platform.</div>
   </section>
+  <div class="page pyrcommand-page">
+    <section class="pyrcommand-capabilities" aria-labelledby="alpha-capabilities">
+      <div class="section-head">
+        <h2 id="alpha-capabilities">Current Alpha Capabilities</h2>
+      </div>
+
+      <h3>Implemented alpha workflows</h3>
+      <div class="feature-grid">
+        <article class="feature-card"><h4>Geographic incident planning</h4><p>Explore incident geography and use map layers to organize planning context.</p></article>
+        <article class="feature-card"><h4>Incident management</h4><p>Use incident interfaces to organize incident context and manage response workflows.</p></article>
+        <article class="feature-card"><h4>Resource coordination and reconnaissance</h4><p>Coordinate resources and use reconnaissance workflows to incorporate observations into planning.</p></article>
+        <article class="feature-card"><h4>Containment objectives</h4><p>Set and track containment objectives and work through related actions in the alpha interface.</p></article>
+      </div>
+
+      <h3>Experimental or developing</h3>
+      <div class="feature-grid">
+        <article class="feature-card"><h4>Incident simulation</h4><p>Explore planning and coordination through experimental scenarios and simulated incident data.</p></article>
+        <article class="feature-card"><h4>Operations log and after-action analysis</h4><p>Developing interfaces for reviewing incident activity, objectives, and simulated outcomes.</p></article>
+        <article class="feature-card"><h4>Tactical telemetry</h4><p>Experimental displays for incident status, asset status, and simulated signals.</p></article>
+      </div>
+
+      <h3>Foundational concepts</h3>
+      <div class="feature-grid">
+        <article class="feature-card"><h4>Mobile observer mode</h4><p>A concept for viewing incident context and updates on mobile devices.</p></article>
+        <article class="feature-card"><h4>Cloud incident sessions</h4><p>Early work on preserving and sharing incident context across sessions.</p></article>
+      </div>
+    </section>
+
+    <div class="notice"><strong>Development status.</strong> PyrCommand is alpha software for development and evaluation. Operational deployment, certified emergency response, and validated wildfire-spread prediction are outside the scope of this alpha.</div>
+  </div>
 </main>
 <footer>
   <div class="footer-content">
     <p>&copy; 2026 PyrGuard Systems LLC. All rights reserved.</p>
     <div class="footer-links">
-      <a href="/privacy.html">Privacy</a>
-      <a href="/updates.html">Updates</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/updates">Updates</a>
       <a href="https://www.linkedin.com/company/pyrguard-systems/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="https://www.youtube.com/@PyrGuardSystems" target="_blank" rel="noopener noreferrer">YouTube</a>
       <a href="https://x.com/PyrGuard" target="_blank" rel="noopener noreferrer">X</a>
