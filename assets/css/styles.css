@@ -63,27 +63,24 @@ header {
 }
 
 .logo-link {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  text-decoration: none;
-  color: var(--text);
-  min-width: max-content;
+  display: block;
+  flex: 0 0 auto;
+  max-width: 100%;
 }
 
 .logo-mark {
-  width: auto;
-  height: 34px;
   display: block;
+  width: 212.5px;
+  max-width: 100%;
+  height: auto;
 }
 
-.logo-text {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.logo-link:hover .logo-text {
-  color: var(--cyan);
+.logo-link:focus-visible,
+nav a:focus-visible,
+.button-link:focus-visible,
+.footer-links a:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
 }
 
 nav {
@@ -347,6 +344,29 @@ nav a:hover {
   align-items: center;
 }
 
+.sub-hero.pyrcommand-intro {
+  padding-block: clamp(48px, 6vw, 86px) 36px;
+}
+
+.page.pyrcommand-page {
+  padding-top: 16px;
+}
+
+.pyrcommand-capabilities > h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.pyrcommand-capabilities .feature-grid {
+  margin: 12px 0 24px;
+}
+
+.pyrcommand-capabilities h4 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
 .validation-strip {
   background: linear-gradient(90deg, rgba(245, 158, 11, 0.06), rgba(34, 211, 238, 0.045));
   border-top: 1px solid var(--border-soft);
@@ -506,11 +526,7 @@ footer {
   }
 
   .logo-mark {
-    height: 30px;
-  }
-
-  .logo-text {
-    font-size: 16px;
+    width: 187.5px;
   }
 
   nav {
